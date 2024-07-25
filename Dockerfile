@@ -1,3 +1,5 @@
+FROM openjdk:11-jre-slim
+
 WORKDIR /app
 
 COPY */*.jar /app/myapp.jar
